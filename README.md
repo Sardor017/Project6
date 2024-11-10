@@ -28,14 +28,9 @@ This project predicts wild blueberry yield using various features related to bee
    git clone https://github.com/Sardor017/Project6.git
    ```
 
-2. Install required libraries.
-   ```bash
-   pip install -r requirements.txt
-   ```
+2. Run `Project_6_Visualization_and_Analyzing.ipynb` for data exploration and visualization.
 
-3. Run `Project_6_Visualization_and_Analyzing.ipynb` for data exploration and visualization.
-
-4. Run `Project_6_main.ipynb` to train the model and generate predictions on the test data.
+3. Run `Project_6_main.ipynb` to train the model and generate predictions on the test data.
 
 ## Model Pipeline
 
@@ -54,7 +49,3 @@ The project uses the following key features for prediction:
 - Load the data from `train_reg.csv` and `test_reg.csv`.
 - Run the pipeline to train and evaluate the model.
 - Save predictions for test data as a `.csv` file.
-
-## License
-
-This project is licensed under the MIT License. 
